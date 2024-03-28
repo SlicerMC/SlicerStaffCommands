@@ -6,7 +6,7 @@
 
     <groupId>com.malcolmjh</groupId>
     <artifactId>SlicerStaffCommands</artifactId>
-    <version>1.2-BATA</version>
+    <version>1.0</version>
     <packaging>jar</packaging>
 
     <name>SlicerStaffCommands</name>
@@ -76,6 +76,12 @@
             <groupId>net.kyori</groupId>
             <artifactId>adventure-api</artifactId>
             <version>4.15.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot-api</artifactId>
+            <version>1.20.4-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 </project>

@@ -1,5 +1,4 @@
 package com.malcolmjh.slicerstaffcommands.commands;
-
 import com.malcolmjh.slicerstaffcommands.SlicerStaffCommands;
 import org.bukkit.Location;
 import org.bukkit.command.Command;

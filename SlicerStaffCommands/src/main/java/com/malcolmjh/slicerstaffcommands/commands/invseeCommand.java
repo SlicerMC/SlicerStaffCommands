@@ -1,5 +1,4 @@
 package com.malcolmjh.slicerstaffcommands.commands;
-
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -19,12 +18,11 @@ public class invseeCommand implements CommandExecutor {
             String invTargets = builder.toString();
             invTargets = invTargets.stripTrailing();
             Player invTarget = Bukkit.getServer().getPlayer(invTargets);
-            Inventory gui = invTarget.getInventory();
-            p.openInventory(gui);
+            Inventory targetInventory = invTarget.getInventory();
+            p.openInventory(targetInventory);
         } else {
             return false;
         }
         return true;
     }
 }
-
